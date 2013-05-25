@@ -1,4 +1,3 @@
-
 # URLFetcher.class.php
 
 *Simple class to fetch URL contents to a PHP string. First GitHub repository.*
@@ -19,6 +18,10 @@ $URLContent = $URLFetcher->fetchURL('http://nono.ma');
 ?>
 
 ```
+
+## License
+
+URLFetcher is licensed under the MIT license. (http://opensource.org/licenses/MIT)
 
 ## Me
 
