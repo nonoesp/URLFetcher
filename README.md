@@ -6,6 +6,18 @@
 
 ## Usage
 
+```<?
+// Include the file
+require('URLFetcher.class.php');
+
+// Create the URLFetcher object
+$URLFetcher = new URLFetcher();
+
+// Store the URL contents as a string
+$URLContent = $URLFetcher->fetchURL('http://nono.ma');
+?>
+
+```
 
 ## Me
 
