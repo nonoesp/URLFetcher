@@ -1,6 +1,14 @@
 
-# Hello, world!
+# URLFetcher.class.php
 
-First repository on github.
+***
+
+*Simple class to fetch URL contents to a PHP string*
+
+First repository on GitHub.
+
+***
+
+## Usage
 
 @nonoesp 
