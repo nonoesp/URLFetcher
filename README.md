@@ -6,7 +6,8 @@
 
 ## Usage
 
-```<?
+```
+<?
 // Include the file
 require('URLFetcher.class.php');
 
