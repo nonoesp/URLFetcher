@@ -34,10 +34,14 @@ public function fetchURL($_url) {
     while(!feof($f))
     $html.= fgets($f, 1024);
     fclose($f);
-    
-    $this->log = 'Successfully read '.$_url; $this->html = $html;
+ 
+    $this->log = 'Successfully read '.$_url;
+    // set $html property to content
+    $this->html = $html;
   }	else {
-    $this->log = 'Couldnt read '.$_url; $this->html = null;
+    $this->log = 'Couldnt read '.$_url;
+    // set $html property to null
+    $this->html = null;
   }
  
   }
