@@ -15,7 +15,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 class URLFetcher {
 
-public $log;
+public $log; //Stores log messages
 public $html;
 
 public function URLFetcher() {
